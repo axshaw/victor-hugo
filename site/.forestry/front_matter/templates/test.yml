@@ -1,0 +1,21 @@
+---
+hide_body: true
+fields:
+- type: field_group_list
+  name: section
+  label: Sections
+  fields:
+  - type: text
+    name: title
+    label: Title
+  - type: textarea
+    config:
+      wysiwyg: true
+    label: Content
+    name: content
+  - type: file
+    name: image
+    label: Image
+  hidden: false
+  config:
+    labelField: 
